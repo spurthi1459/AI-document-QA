@@ -60,6 +60,7 @@ streamlit run app.py
 
 ## Live demo
 
+https://doc-q-ai.streamlit.app/
 
 👩‍💻 Author
 
