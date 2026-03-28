@@ -61,15 +61,6 @@ streamlit run app.py
 ## Live demo
 
 
-## Screenshots
-
-### 🔹 Application UI
-
-![App Screenshot](1.png)
-
-![App Screenshot](2.png)
-
-
 👩‍💻 Author
 
 Spurthi Pattanashetti
