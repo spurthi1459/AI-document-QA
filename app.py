@@ -10,7 +10,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 # Page config
 st.set_page_config(page_title="AI Document Q&A", layout="wide")
 
-# 🎨 Custom Theme (Brown + Cream)
+
 st.markdown("""
 <style>
 .stApp {
@@ -56,7 +56,7 @@ st.markdown("<p style='text-align:center;'>Upload a PDF and chat with it</p>", u
 st.markdown("---")
 
 # Configure Gemini
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 model = genai.GenerativeModel("models/gemini-2.5-flash")  # stable
 
 # Session state
